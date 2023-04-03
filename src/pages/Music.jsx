@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 const Music = () => {
     return (
         <>
@@ -7,6 +8,7 @@ const Music = () => {
                 This is music page
 
             </div>
+            <Footer />
         </>
 
     )

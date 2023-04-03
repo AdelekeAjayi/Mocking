@@ -1,14 +1,16 @@
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 const Artistes = () => {
-    return(
+    return (
         <>
-        <Header/>
-        <div>
-            This is artistes page
+            <Header />
+            <div>
+                This is artistes page
 
-        </div>
+            </div>
+            <Footer />
         </>
-        
-    )    
+
+    )
 }
 export default Artistes

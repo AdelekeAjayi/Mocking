@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 const Videos = () => {
     return (
         <>
@@ -7,6 +8,7 @@ const Videos = () => {
                 This is videos page
 
             </div>
+            <Footer />
         </>
 
     )

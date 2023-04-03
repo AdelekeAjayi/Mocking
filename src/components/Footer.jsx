@@ -1,10 +1,10 @@
 import React from 'react'
-import logo2 from '../assets/logo.svg'
+import logo from '../assets/logo.svg'
 
 const Footer = () => {
     return (
         <div className='flex-col justify-center w-full'>
-            <div className='text-center px-[30px] mb-5'>
+            <div className='text-center px-[30px] mb-2'>
                 <h3 className='text-[12px]'>
                     You can reach us right away. Let’s begin your project.
                     <span className='text-[#F20A0A]'>Write us a message.</span>
@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <footer className='bg-black px-[30px] py-[30px] flex items-center gap-8 justify-center lg:justify-evenly'>
                 <div>
-                    <img className='mb-2' src={logo2} alt='logo' />
+                    <img className='mb-2' src={logo} alt='' />
                     <p className='text-white text-[8px] md:text-[12px] lg:text-[14px] font-light md:w-[366px]'>
                         Mocking by Jay is a major record
                         label that is mostly
